@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="Krystal Greene">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactus</title>
+    <link rel="shortcut icon" href="C:\Users\kryst\OneDrive\Documents\Final Project\Images\camping (3).png">
+    <link rel="stylesheet" type="text/css" href="C:\Users\kryst\OneDrive\Documents\Final Project\TGEstylesheet.css">
+    <a href="C:\Users\kryst\OneDrive\Documents\Final Project\Index.html"><img
+            src="C:\Users\kryst\OneDrive\Documents\Final Project\Images\camping (3).png" alt="Home" height="90"></a>
+    <style>
+        h2 {
+            text-align: center;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        fieldset {
+            text-align: center;
+        }
+
+        form {
+            width: 75%;
+            margin: 0 auto 0 auto;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            margin-bottom: .25em;
+            padding: .25em;
+            font-size: 1em;
+        }
+
+        input[type="submit"] {
+            font-size: 1.25em;
+
+        }
+
+        legend {
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>Want to contact us?</h2>
+        <h3>Send us a message for inquiries.</h3>
+    </header>
+
+    <form action="questionnaire.php" method="=post">
+        <fieldset>
+            <legend>Contact info</legend>
+            <label>First name: <input type="text" name="First-name" size="15" maxlength="30"></label>
+            <label>Last name: <input type="text" name="last-name" size="15" maxlength="30"></label><br><br>
+            <label>Email: <input type="text" name="email" size="25" maxlength="40"></label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Got questions?</legend>
+            <label>We've got answers. Send us a message.<br><textarea name="Questions" rows="4"
+                    cols="40"></textarea></label><br><br>
+            Ready to book your camping adventure?<br>
+            <label>Yes I'm Ready<input type="checkbox" name="I'm ready"></label>
+            <label>Need more info<input type="checkbox" name="Need Info"></label>
+            <br><br>
+
+        </fieldset>
+        <input type="submit" value="Send email message">
+    </form>
+    <nav>
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contactus.html" class="current">Contact Us</a>
+                <li><a href="https://www.camping-gear-outlet.com" target="_blank">Camping Gear</a></li>
+            </ul>
+        </nav>
+        <footer>
+            <p>CIST 1510 Summer 2022, The Great Escape Camping Retreat, Krystal Greene</p>
+        </footer>
